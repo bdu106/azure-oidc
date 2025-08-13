@@ -28,5 +28,6 @@ jobs:
            --resource-group ${{env.AZURE_RESOURCE_GROUP}} \
            --name ubuntu \
            --image Ubuntu2204 \
+           --size Standard_D2as_v6 \
            --admin-username azureuser \
            --generate-ssh-keys
